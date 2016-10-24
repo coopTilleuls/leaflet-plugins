@@ -59,7 +59,7 @@ L.Yandex = L.Class.extend({
 		// set up events
 		map.on('viewreset', this._reset, this);
 
-		this._limitedUpdate = L.Util.limitExecByInterval(this._update, 150, this);
+		this._limitedUpdate = L.Util.limitExecByInterval(this._update, 0, this);
 		map.on('move', this._update, this);
 
 		map._controlCorners.bottomright.style.marginBottom = '3em';

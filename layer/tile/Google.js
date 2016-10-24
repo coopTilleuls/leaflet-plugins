@@ -56,7 +56,7 @@ L.Google = L.Class.extend({
 			// set up events
 			map.on('viewreset', _this._reset, _this);
 
-			_this._limitedUpdate = L.Util.limitExecByInterval(_this._update, 150, _this);
+			_this._limitedUpdate = L.Util.limitExecByInterval(_this._update, 0, _this);
 			map.on('move', _this._update, _this);
 
 			map.on('zoomanim', _this._handleZoomAnim, _this);
