@@ -14,18 +14,18 @@
     "lint": "eslint --config .eslintrc control/* layer/*"
   },
   "devDependencies": {
-    "bluebird": "3.4.1",
-    "chai": "3.X",
-    "eslint": "2.3.0",
-    "karma": "1.X",
+    "bluebird": "3.7.1",
+    "chai": "4",
+    "eslint": "6.5.1",
+    "karma": "4",
     "karma-chai": "0.1.X",
-    "karma-chrome-launcher": "1.X",
+    "karma-chrome-launcher": "3",
     "karma-mocha": "1.X",
     "karma-mocha-reporter": "2.X",
     "karma-phantomjs-launcher": "1.X",
-    "leaflet": "0.7.X",
-    "mocha": "2.X",
-    "tap": "^6.3.2"
+    "leaflet": "1.5",
+    "mocha": "6",
+    "tap": "^14.8.2"
   },
   "contributors": [
     "Bruno Bergot <bruno@eliaz.fr>"
